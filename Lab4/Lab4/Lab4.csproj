@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp2.2;net8.0</TargetFrameworks>
+	<PackAsTool>true</PackAsTool>
+	<ToolCommandName>dsvynarchuk</ToolCommandName>
+	<PackageId>DSvynarchuk</PackageId>
+	<Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lab4.LabsLibrary\Lab4.LabsLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
